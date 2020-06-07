@@ -7,17 +7,12 @@ Date: 6/20/2020
 This project is for CPSC 353 class, and it uses the g++ compiler and the program files made for preparing the job interew.
 
 # Usage
-#Usage 1)
 
 g++ -c main.cpp FindSmallest.cpp
-g++ -o main.exe FindSmallest.o 
 
-./main.exe
+g++ -o main main.o FindSmallest.o
 
-#Usage 2)
-
-make
-./project
+./main
 
 # Source Files
 - **main.cpp** - The main function are in this file. 
